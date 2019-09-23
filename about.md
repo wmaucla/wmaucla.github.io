@@ -10,4 +10,4 @@ Hello! I'm a Senior Data Scientist working in NYC. Thanks for taking a look at m
 
 [williammaucla@gmail.com](mailto:williammaucla@gmail.com)
 
-[My LinkedIn profile](www.linkedin.com/in/williammaucla)
+[My LinkedIn profile](http://www.linkedin.com/in/williammaucla)
