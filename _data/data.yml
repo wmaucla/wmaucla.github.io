@@ -3,123 +3,94 @@
 #
 
 sidebar:
-    about: True # set to False or comment line if you want to remove the "how to use?" in the sidebar
-    education: True # set to False if you want education in main section instead of in sidebar
+    about: False # set to False or comment line if you want to remove the "how to use?" in the sidebar
+    education: False # set to False if you want education in main section instead of in sidebar
 
     # Profile information
-    name: Alan Doe
-    tagline: Full Stack Developer
-    avatar: profile.png  #place a 100x100 picture inside /assets/images/ folder and provide the name of the file below
+    name: Zhengwei (William) Ma
+    tagline: Senior Data Scientist
+    avatar: profile_pic.jpg  #place a 100x100 picture inside /assets/images/ folder and provide the name of the file below
 
     # Sidebar links
-    email: hello@webjeda.com
-    phone: 012 345 6789
-    website: blog.webjeda.com #do not add http://
-    linkedin: alandoe
-    github: sharu725
+    email: williammaucla@gmail.com
+    website: wmaucla.bitbucket.io #do not add http://
+    linkedin: williammaucla
+    github: wmaucla
     gitlab:
-    bitbucket:
-    twitter: '@webjeda'
-    stack-overflow: # Number/Username, e.g. 123456/alandoe
-    codewars:
-    goodreads: # Number-Username, e.g. 123456-alandoe
+    bitbucket: wmaucla
 
     languages:
       - idiom: English
         level: Native
 
-      - idiom: French
-        level: Professional
+      - idiom: Chinese
+        level: Native
 
       - idiom: Spanish
-        level: Professional
+        level: Conversational
 
-    interests:
-      - item: Climbing
-        link:
-
-      - item: Snowboarding
-        link:
-
-      - item: Cooking
-        link:
+    # interests:
+    #   - item: Climbing
+    #    link:
 
 career-profile:
     title: Career Profile
     summary: |
-      Summarise your career here lorem ipsum dolor sit amet, consectetuer
-      adipiscing elit. You can [download this free resume/CV template here]().
-      Aenean commodo ligula eget dolor aenean massa. Cum sociis natoque
-      penatibus et magnis dis parturient montes, nascetur ridiculus mus.
-      Donec quam felis, ultricies nec, pellentesque eu.
-      Second paragraph if required.
+      Hello! I am a senior data scientist and a teaching assistant at Harvard Extension School. My interests include operationalizing ML, computer vision, and NLP/NLU.
+      I am passionate about bringing ML projects to life - finding the balance between building a tech stack that promotes rapid & iterative ML development while leveraging cutting-edge data science techniques, all while getting and promoting stackholder buy-in.
 education:
-    - degree: MSc in Computer Science
-      university: University of London
-      time: 2011 - 2012
+    - degree: BSc in Financial Actuarial Mathematics
+      university: University of California, Los Angeles
+      time: 2013 - 2016
       details: |
-        Describe your study here lorem ipsum dolor sit amet, consectetuer
-        adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum
-        sociis natoque penatibus et magnis dis parturient montes, nascetur
-        ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu,
-        pretium quis, sem.
-          - Bullet point
-          - Bullet point
-    - degree: BSc in Applied Mathematics
-      university: Bristol University
-      time: 2007 - 2011
-      details: |
-        Describe your study here lorem ipsum dolor sit amet, consectetuer
-        adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum
-        sociis natoque penatibus et magnis dis parturient montes, nascetur
-        ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu,
-        pretium quis, sem.
-          - Bullet point
-          - Bullet point
+        At UCLA I studied actuarial mathematics with a minor in statistics and a specialization in computing. I was a honors students and graduated Cum Laude with a 3.8 GPA.
+          - Whilst at UCLA I was president of Bruin Actuarial Society. I organized and oversaw massive events like our annual career fair (200+ students, 20+ actuarial firms) and our spring banquet (100+ students), as well as creating new workshops and seminars for our members. You can find out more [here](https://www.math.ucla.edu/~actuary/meetTheOfficers.html)
+          - I also was part of VITA (Volunteer Income Tax Assistance). I was IRS certified to help complete taxes for low-income individuals (completed IRS TCE Certification Courses).
+
 experiences:
-    - role: Lead Developer
-      time: 2015 - Present
-      company: Startup Hubs, San Francisco
+    - role: Graduate Teaching Assistant
+      time: 2019 - Present
+      company: Harvard Extension School
       details: |
-        Describe your role here lorem ipsum dolor sit amet, consectetuer
-        adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa.
-        Cum sociis natoque penatibus et magnis dis parturient montes,
-        nascetur ridiculus mus. Donec quam felis, ultricies nec,
-        pellentesque eu, pretium quis, sem. Nulla consequat massa quis
-        enim. Donec pede justo. Sed ut perspiciatis unde omnis iste natus
-        error sit voluptatem accusantium doloremque laudantium, totam rem
-        aperiam, eaque ipsa quae ab illo inventore veritatis et quasi
-        architecto beatae vitae dicta sunt explicabo.
-          - Bullet point
-          - Bullet point
-    - role: Senior Software Engineer
-      time: 2014 - 2015
-      company: Google, London
+        I am a TA for Advanced Python for Data Science, a Master's program course at Harvard Extension School. We teach software best practices leveraging open-source tools to aspiring data scientists.
+          - Concepts covered include: CI/CD, unit testing, task workflows, git, containerization, APIs, skeletons, and much more - you can find the syllabus [here](http://my.extension.harvard.edu/course/ext-25473/2020?_ga=2.7651058.1174572432.1581899828-2102175781.1581899828)
+          - I hold weekly virtual office hours where I present in depth over topics covered in class, often with code demos. Examples include python decorators/descriptors, Luigi, Django, unit testing, Docker, etc.
+          - I also field piazza questions and hold virtual office hours to address student questions
+    - role: Senior Data Scientist
+      time: 2019 - Present
+      company: Munich Reinsurance America
       details: |
-        Describe your role here lorem ipsum dolor sit amet, consectetuer
-        adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa.
-        Cum sociis natoque penatibus et magnis dis parturient montes,
-        nascetur ridiculus mus. Donec quam felis, ultricies nec,
-        pellentesque eu, pretium quis, sem.
-          - Bullet point
-          - Bullet point
-    - role: UI Developer
-      time: 2012 - 2014
-      company: Amazon, London
+        I currently also work for Munich Re America in the Integrated Analytics team. We are a group of data scientists + data engineers working on bringing innovative ML models for life insurance.
+          - I've worked on projects that are client facing - we provide models + analytics to life insurance companies that we reinsure.
+            - Involves technical project management, model development + training, data engineering collaboration, PowerBI dashboards
+            - On the client side, more client engagement - explaining and understanding client data, guiding client conversation over what analytics we can provide
+          - NLP/NLU related work - medical term extraction from physician statements (APS)
+            - NLP parsing with hugging face transformer's question/answer BERT models
+            - Classification of images using pytorch pretrained image models (Resnet)
+            - Pipelined with Metaflow
+          - Supported extensive recruiting efforts by attending MIT career fair, hosting technical phone screens and in-person interviews
+          - Built a low-touch deep learning entity resolution solution
+            - Deployed as a Flask front end app inside a Docker container on Kubernetes. Configured with Azure single sign on for security and Azure pipelines for CI
+            - Pipelined with Luigi, integrating read/write to Azure SQLServer + blob storage
+    - role: Senior Data Scientist
+      time: 2017 - 2019
+      company: Solaria Labs - Liberty Mutual Insurance
       details: |
-        Describe your role here lorem ipsum dolor sit amet, consectetuer
-        adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa.
-        Cum sociis natoque penatibus et magnis dis parturient montes,
-        nascetur ridiculus mus. Donec quam felis, ultricies nec,
-        pellentesque eu, pretium quis, sem.
-          - Bullet point
-          - Bullet point
+        [Solaria Labs](https://www.solarialabs.com/) is the innovation arm of Liberty Mutual Insurance, thinking about building a better, safer future.
+          - Driver Risk Score for Ridesharing Companies
+            - Developed end-to-end machine learning pipeline (> 100GB of data) with dask, luigi, and dask-ml
+            - Leverages Bamboo pipeline for CI/CD for unit testing and deploying sphinx documentation
+            - Models riskiness of drivers with tree-based xgboost tweedie regression model
+          - Alternative Data via Telematics - Measuring Car Traffic at POIs
+            - Built end-to-end python ETL pipeline for processing/analyzing telematics data using dask, luigi, and spark
+            - Employed geohashed hilbert telematics points in dask for over 2x faster spatial join on millions of point
 projects:
     title: Projects
     intro: >
       You can list your side projects or open source libraries in this
       section. Lorem ipsum dolor sit amet, consectetur adipiscing elit.
       Vestibulum et ligula in nunc bibendum fringilla a eu lectus.
+
     assignments:
       - title: Velocity
         link: "#hook"
@@ -141,34 +112,12 @@ projects:
         link: "#"
         tagline: "A responsive Bootstrap one page theme designed to help app developers promote their mobile apps"
 
-publications:
-    title: Publications
-    intro: |
-      You can list your publications in this section. Lorem ipsum dolor sit
-      amet, consectetur adipiscing elit. Vestibulum et ligula in nunc
-      bibendum fringilla a eu lectus.
-    papers:
-      - title: The Art of Computer Programming
-        link: "#"
-        authors: Donald E. Knuth
-        conference: Addison-Wesley, 1968
-
-      - title: "Genetic Programming III: Darwinian Invention &amp; Problem Solving"
-        link: "#"
-        authors: Koza, J.R., Andre, D., Bennett, F.H., Keane, M.A.
-        conference: "Morgan Kaufmann Publishers Inc., San Francisco, CA, USA, 1st edn. (1999)"
-
-      - title: A syntax directed compiler for Algol 60
-        link: "#"
-        authors: Edgar T. Irons
-        conference: "Comm. ACM 4 (1961), 51–55"
-
 skills:
     title: Skills &amp; Proficiency
 
     toolset:
-      - name: Python & Django
-        level: 98%
+      - name: Python
+        level: 100%
 
       - name: Javascript & jQuery
         level: 98%
