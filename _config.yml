@@ -1,17 +1,35 @@
-# Site settings
-title: ZHENGWEI (WILLIAM) MA
-description: Jekyll Theme Minimal Resume
-# baseurl: "" # the subpath of your site, e.g. /blog
-# url: "localhost:3000" # the base hostname & protocol for your site e.g. http://willianjusten.com.br
+#Update all the sections by editing the data.yml file inside _data folder.
 
-# User settings
-username: William Ma
-user_description: I'm a senior data scientist.
-user_title: Senior Data Scientist
-email: williammaucla@gmail.com
-# twitter_username: lorem_ipsum
-github_username:  wmaucla
-# gplus_username:  lorem_ipsum
+# Site Settings
+title: William Ma's Resume
+url: 'http://webjeda.com'
+baseurl: '' #change it according to your repository name
+description: A beautiful Jekyll theme for creating resume
+# Style will be applied only after restarting the build or serve. Just choose one of the options.
+theme_skin: blue # blue turquoise green berry orange ceramic
+chrome_mobile_color: #use hex colors (ex:#1976d2) or leave empty if you don't want a color for chrome mobile searchbar
+
+# Tracker
+analytics: UA-83979019-1
 
 
-exclude: ['package.json', 'src' , 'node_modules']
+
+# Sass/SCSS
+sass:
+  sass_dir: _sass
+  style: compressed # http://sass-lang.com/documentation/file.SASS_REFERENCE.html#output_style
+
+# Build settings
+compress-site: yes
+
+encoding: "utf-8"
+compress_html: # - http://jch.penibelst.de/
+  clippings: alladd Gem gulp
+  
+  ignore:
+    envs: development
+
+# Development Settings
+port: 4000
+host: 0.0.0.0
+safe: false
