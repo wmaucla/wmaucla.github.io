@@ -64,7 +64,7 @@ experiences:
           - I've worked on projects that are client facing - we provide models + analytics to life insurance companies that we reinsure.
             - Involves technical project management, model development + training, data engineering collaboration, PowerBI dashboards
             - On the client side, more client engagement - explaining and understanding client data, guiding client conversation over what analytics we can provide
-          - NLP/NLU related work - medical term extraction from physician statements (APS)
+          - <b> NLP/NLU </b> & <b> computer vision </b> related work - medical term extraction from physician statements (APS)
             - NLP parsing with hugging face transformer's question/answer BERT models
             - Classification of images using pytorch pretrained image models (Resnet)
             - Pipelined with Metaflow
